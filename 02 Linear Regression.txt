@@ -1,0 +1,21 @@
+** Linear Regression **
+
+History:
+This all started in 1800's with a guy named Francis Galton. 
+Galton was studying the relationship between parents and their children.
+In particular, he investigated the relationship between the heights of father and their sons.
+
+What he dicovered was that a man's son tended to be roughly as tall as his father.
+However, Galton's breakthrough was that the son's height 'tended to be closer to the overall average' height of all people
+
+Galton's "Phenomenon Regression", a father's son's height tends to regress(or drift towards) the mean(average) height
+
+
+Our goal with linear regression is to 'minimize the vertical distance' between all the data points and our line
+So in determining the 'best line', we are attempting to minimize the distance between all the points and their distance to our line
+
+There are lots of differnt ways to minimize this, (sum of squared errors, sum of absolute errors etc.), but all these methods have a general goal of minimizing this distance.
+
+
+Problem Statement:
+To create a model to predict housing prices based off of existing features.
